@@ -31,6 +31,7 @@ do
   --pred_len $pred_len \
   --e_layers $e_layers \
   --learning_rate 0.01 \
+  --dropout 0 \
   --enc_in 7 \
   --itr 1 >logs/TCM_log/TCM_$(date +%Y%m%d)/TCM_illness'_'$seq_len'_'$pred_len'_'$(date +%T).log
  done

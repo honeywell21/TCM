@@ -30,6 +30,7 @@ python -u run.py \
       --enc_in 7 \
       --batch_size 32 \
       --learning_rate 0.001 \
+      --dropout 0.3 \
       --model $model \
       --rev \
       --norm \

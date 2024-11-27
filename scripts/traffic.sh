@@ -30,6 +30,7 @@ python -u run.py \
       --e_layers $e_layers \
       --enc_in 862 \
       --learning_rate 0.05 \
+      --dropout 0.1 \
       --model $model \
       #--itr 1 >logs/TCM_log/TCM_$(date +%Y%m%d)/TCM_traffic'_'$seq_len'_'$pred_len'_'$(date +%T).log
 

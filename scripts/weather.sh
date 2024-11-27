@@ -31,6 +31,8 @@ python -u run.py \
       --model $model \
       --d_model 1024  \
       --e_layers $e_layers \
+      --learning_rate 0.001 \
+      --dropout 0 \
       --itr 1 >logs/TCM_log/TCM_$(date +%Y%m%d)/TCM_weather'_'$seq_len'_'$pred_len'_'$(date +%T).log
 
 done 

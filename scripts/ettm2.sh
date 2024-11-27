@@ -29,7 +29,8 @@ python -u run.py \
       --pred_len $pred_len \
       --enc_in 7 \
       --batch_size 32 \
-      --learning_rate 0.005 \
+      --learning_rate 0.001 \
+      --dropout 0.3 \
       --model $model \
       --e_layers $e_layers \
       --itr 1 >logs/TCM_log/TCM_$(date +%Y%m%d)/TCM_ETTm2'_'$seq_len'_'$pred_len'_'$(date +%T).log

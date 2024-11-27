@@ -30,6 +30,7 @@ python -u run.py \
       --enc_in 7 \
       --batch_size 32 \
       --learning_rate 0.001 \
+      --dropout 0.3 \
       --model $model \
       --e_layers $e_layers \
       --itr 1  >logs/TCM_log/TCM_$(date +%Y%m%d)/TCM_ETTm1'_'$seq_len'_'$pred_len'_'$(date +%T).log

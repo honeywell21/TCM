@@ -29,6 +29,7 @@ python -u run.py \
       --pred_len $pred_len \
       --enc_in 321 \
       --learning_rate 0.001 \
+      --dropout 0.05 \
       --model $model \
       --e_layers $e_layers \
       --itr 1 >logs/TCM_log/TCM_$(date +%Y%m%d)/TCM_electricity'_'$seq_len'_'$pred_len'_'$(date +%T).log
