@@ -35,3 +35,19 @@ We express our gratitude to the following GitHub repositories for providing valu
 - [Time-Series-Library](https://github.com/thuml/Time-Series-Library)
 
 - [MTS-Mixers](https://github.com/plumprc/MTS-Mixers)
+
+## Citation
+If you find this work helpful, please consider citing it as follows:
+```
+@article{JIANG2025128960,
+  title = {TCM: An efficient lightweight MLP-based network with affine transformation for long-term time series forecasting},
+  journal = {Neurocomputing},
+  volume = {617},
+  pages = {128960},
+  year = {2025},
+  issn = {0925-2312},
+  doi = {https://doi.org/10.1016/j.neucom.2024.128960},
+  url = {https://www.sciencedirect.com/science/article/pii/S0925231224017314},
+  author = {Hongwei Jiang and Dongsheng Liu and Xinyi Ding and Yaning Chen and Hongtao Li}
+}
+```
